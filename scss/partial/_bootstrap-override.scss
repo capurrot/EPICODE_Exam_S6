@@ -5,6 +5,8 @@
 @import "../../bootstrap/scss/functions";
 
 // 2. Include any default variable overrides here
+$btn-border-radius: 0;
+$input-border-radius: 0;
 
 // 3. Include remainder of required Bootstrap stylesheets (including any separate color mode stylesheets)
 @import "../../bootstrap/scss/variables";
@@ -21,6 +23,8 @@ $my-container-max-widths: (
   xxxl: 1800px,
 );
 $container-max-widths: map-merge($container-max-widths, $my-container-max-widths);
+
+$input-border-color: $light;
 
 // 5. Include remainder of required parts
 @import "../../bootstrap/scss/maps";
