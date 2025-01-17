@@ -36,9 +36,6 @@ main {
       font-weight: 700;
     }
   }
-  & .carousel-inner {
-    overflow: inherit;
-  }
 
   @keyframes scaleHover {
     0% {
@@ -47,10 +44,6 @@ main {
     100% {
       transform: scale(1.3);
     }
-  }
-
-  .carousel img:hover {
-    animation: scaleHover 0.3s linear both;
   }
 }
 
