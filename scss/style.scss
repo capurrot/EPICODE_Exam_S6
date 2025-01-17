@@ -1,15 +1,14 @@
 @import "./partial/bootstrap-override";
 
+body {
+  background-color: $dark;
+}
 header {
   nav {
     img {
       height: 25px;
     }
   }
-}
-
-body {
-  background-color: $dark;
 }
 main {
   section {

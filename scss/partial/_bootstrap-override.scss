@@ -20,7 +20,7 @@ $my-grid-breakpoints: (
 $grid-breakpoints: map-merge($grid-breakpoints, $my-grid-breakpoints);
 
 $my-container-max-widths: (
-  xxxl: 1800px,
+  xxxl: 1750px,
 );
 $container-max-widths: map-merge($container-max-widths, $my-container-max-widths);
 

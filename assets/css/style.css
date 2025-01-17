@@ -768,7 +768,7 @@ progress {
 }
 @media (min-width: 1600px) {
   .container-xxxl, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1800px;
+    max-width: 1750px;
   }
 }
 :root {
@@ -12901,12 +12901,12 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-header nav img {
-  height: 25px;
-}
-
 body {
   background-color: #212529;
+}
+
+header nav img {
+  height: 25px;
 }
 
 main section .icons {
