@@ -12919,6 +12919,9 @@ header nav .nav-link.active {
 header nav img {
   height: 25px;
 }
+header nav .avatar {
+  border-radius: 5px;
+}
 
 main section .icons {
   height: 35px;
