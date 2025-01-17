@@ -12,6 +12,16 @@
 
 // 4. Include any default map overrides here
 
+$my-grid-breakpoints: (
+  xxxl: 1600px,
+);
+$grid-breakpoints: map-merge($grid-breakpoints, $my-grid-breakpoints);
+
+$my-container-max-widths: (
+  xxxl: 1800px,
+);
+$container-max-widths: map-merge($container-max-widths, $my-container-max-widths);
+
 // 5. Include remainder of required parts
 @import "../../bootstrap/scss/maps";
 @import "../../bootstrap/scss/mixins";
