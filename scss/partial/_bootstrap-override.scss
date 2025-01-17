@@ -26,6 +26,12 @@ $container-max-widths: map-merge($container-max-widths, $my-container-max-widths
 
 $input-border-color: $light;
 
+$my-font-size: (
+  7: 0.9rem,
+  8: 0.8rem,
+);
+$font-sizes: map-merge($font-sizes, $my-font-size);
+
 // 5. Include remainder of required parts
 @import "../../bootstrap/scss/maps";
 @import "../../bootstrap/scss/mixins";

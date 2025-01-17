@@ -8692,6 +8692,14 @@ textarea.form-control-lg {
   font-size: 1rem !important;
 }
 
+.fs-7 {
+  font-size: 0.9rem !important;
+}
+
+.fs-8 {
+  font-size: 0.8rem !important;
+}
+
 .fst-italic {
   font-style: italic !important;
 }
@@ -12905,6 +12913,9 @@ body {
   background-color: #212529;
 }
 
+header nav .nav-link.active {
+  font-weight: 700;
+}
 header nav img {
   height: 25px;
 }
@@ -12921,4 +12932,12 @@ main section .icons button {
 main section .icons button.active {
   color: #f8f9fa;
   border: 1px solid #f8f9fa;
+}
+main section .bolder {
+  font-weight: 700;
+}
+
+footer i {
+  width: 1.5em;
+  font-size: 1.5em;
 }/*# sourceMappingURL=style.css.map */

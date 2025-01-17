@@ -5,6 +5,9 @@ body {
 }
 header {
   nav {
+    .nav-link.active {
+      font-weight: 700;
+    }
     img {
       height: 25px;
     }
@@ -25,5 +28,15 @@ main {
         }
       }
     }
+    .bolder {
+      font-weight: 700;
+    }
+  }
+}
+
+footer {
+  i {
+    width: 1.5em;
+    font-size: 1.5em;
   }
 }
